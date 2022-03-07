@@ -1953,7 +1953,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:58e5b9ef818715133d95ffc74daed0cae14b83863454f11c07637d0b55d2b86c195c33d840568aa8e452b7d3de336f6295a0ed755cb09e1fb72931c4083f2a06#npm:27.5.1"],\
             ["nock", "npm:13.2.4"],\
             ["node-fetch", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:2.6.7"],\
-            ["ts-jest", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:27.1.3"]\
+            ["ts-jest", "virtual:58e5b9ef818715133d95ffc74daed0cae14b83863454f11c07637d0b55d2b86c195c33d840568aa8e452b7d3de336f6295a0ed755cb09e1fb72931c4083f2a06#npm:27.1.3"],\
+            ["typescript", "patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4757,43 +4758,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["make-error", "npm:1.3.6"],\
             ["semver", "npm:7.3.5"],\
             ["typescript", "patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"],\
-            ["yargs-parser", "npm:20.2.9"]\
-          ],\
-          "packagePeers": [\
-            "@babel/core",\
-            "@types/babel-jest",\
-            "@types/babel__core",\
-            "@types/esbuild",\
-            "@types/jest",\
-            "@types/typescript",\
-            "babel-jest",\
-            "esbuild",\
-            "jest",\
-            "typescript"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:27.1.3", {\
-          "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-f595321f09/0/cache/ts-jest-npm-27.1.3-a4b2ce4894-eb54e5b8fc.zip/node_modules/ts-jest/",\
-          "packageDependencies": [\
-            ["ts-jest", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:27.1.3"],\
-            ["@babel/core", null],\
-            ["@types/babel-jest", null],\
-            ["@types/babel__core", null],\
-            ["@types/esbuild", null],\
-            ["@types/jest", "npm:27.4.1"],\
-            ["@types/typescript", null],\
-            ["babel-jest", null],\
-            ["bs-logger", "npm:0.2.6"],\
-            ["esbuild", null],\
-            ["fast-json-stable-stringify", "npm:2.1.0"],\
-            ["jest", "virtual:58e5b9ef818715133d95ffc74daed0cae14b83863454f11c07637d0b55d2b86c195c33d840568aa8e452b7d3de336f6295a0ed755cb09e1fb72931c4083f2a06#npm:27.5.1"],\
-            ["jest-util", "npm:27.5.1"],\
-            ["json5", "npm:2.2.0"],\
-            ["lodash.memoize", "npm:4.1.2"],\
-            ["make-error", "npm:1.3.6"],\
-            ["semver", "npm:7.3.5"],\
-            ["typescript", null],\
             ["yargs-parser", "npm:20.2.9"]\
           ],\
           "packagePeers": [\
