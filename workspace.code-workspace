@@ -1,14 +1,18 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "packages/core"
-		}
-	],
-	"settings": {
-		"typescript.tsdk": ".yarn/sdks/typescript/lib",
-		"typescript.enablePromptUseWorkspaceTsdk": true
-	}
+  "folders": [
+    {
+      "path": ".",
+      "name": "<root>"
+    },
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/express"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "<root>\\.yarn\\sdks\\typescript\\lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
 }
